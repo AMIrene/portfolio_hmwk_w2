@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  background: #2b6777;
+  color: #fff;
+}
+
+
+/* 
+What happens when we set the display property to flex?
+The flex container becomes flexible 
+*/
+nav {
+  display: flex;
+  background-color: #d8a47f;
+}
+
+nav a {
+  color: #13293d;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Background image - hero */
+.hero {
+    height: 60vh;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("banner.png");
+    background-size: cover;
+    background-position: center;
+  
+}
+
+
+/* 
+What is the flex-wrap property?
+It specifies whether the flex items should wrap or not 
+*/
+main {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+}
+]
+aside {
+  flex: 1;
+  background-color: #b9c6ae;
+  padding: 80px;
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
+/* 
+What does the justify-content property do?
+It is used to align the flex items; in our case, the product cards 
+*/
+.products {
+  flex: 4;
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.products h3 {
+    text-align: center;
+    background: #2b6777;
+    color: #fff;
+    font-size: 19px;
+    padding: 5%;
+    margin-top: -15.7%;
+  
+  
+}
+
+/* 
+What is the flex property a shorthand property for?
+It is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties 
+What is it doing here?
+We are making the product card not growable, not shrinkable, and with an initial length of 400px 
+*/
+.container {
+display: flex;
+flex-direction: column;
+
+}
+
+.container p{
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 18px;
+  background-color: #dadfe1;
+  color: #2b6777;
+  padding: 5%;
+}
+.cardprofile {
+text-align: center;
+background: #fff;
+color: #2b6777;
+border-width: 1px;
+flex: 0 0 400px;
+}
+
+
+.card {
+  border-width: 1px;
+  padding: 2px;
+  flex: 0 0 400px;
+  
+}
+
+.avatar{
+  border-width: 1px;
+}
+
+.card header {
+  padding: 20px;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+/* 
+What does the flex-direction property define?
+It defines in which direction the container wants to stack the flex items
+What is it doing here? 
+We are telling the main body and navbar to stack vertically in a column
+*/
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}

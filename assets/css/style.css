@@ -12,42 +12,38 @@
   
   header {
     padding: 10px;
-    text-align: center;
     background: #2b6777;
-    color: #fff;
-    font-size: large;
-    display: flex;
-  
+    padding: 14px 16px;
     
-   
-   
+        
+     
   }
+/* Navigation menu */
 
-  header h1 {
-    flex: 1;
-    flex-direction: column;
-    width: 100px;
-    height: 100px;
-    align-items: flex-start;
-    
-   
-      
-  }
-
-ul {
+.navbar {
   display: flex;
-  width: 100px;
-  height: 100px;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding: 0;
-  list-style: none;
-  align-items: flex-end;
-  justify-content: baseline;
-  flex-grow: 1 1 0;
-  
+  justify-content: space-between;
+  color: #fff;
+
+
 }
 
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  border-bottom: solid #fff;
+
+
+}
+
+}
+
+.navbar h1 {
+  font-size: 16px;
+ 
+}
 ul li {
 
   color:#fff;

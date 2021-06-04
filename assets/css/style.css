@@ -12,7 +12,7 @@
   
   header {
     padding: 10px;
-    background: #2b6777;
+    background: #fff;
     padding: 14px 16px;
     
         
@@ -23,30 +23,91 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  color: #fff;
+  flex-direction: column;
+  color: #2b6777;
+
+
+}
+
+.navbar h1 {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
 
 
 }
 
 .nav-links {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  font-size: 14px;
-  border-bottom: solid #fff;
+  align-items: flex-end;
+
+}
+
+
+/* hero image not displayed on screen sizes less than 367px*/
+.hero {
+  display: none;
+  flex-direction: column;
+  background-image: url(../images/1.png);
+  min-height: 15em;
+  height: 50%;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+/* hero image displayed only in screen sizes bigger than 367px*/
+
+@media only screen and (min-width: 376px) {
+  .hero {
+  display:block;
+  flex-direction: row;
+  background-image: url(../images/1.png);
+  min-height: 15em;
+  height: 50%;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* subheading not displayed on screen sizes less than 367px*/
+.hero-text {
+  display: none;
+  text-align: right;
+  background-color: #fff;
+  color: #2b6777;
+  font-size: large;
+}
+/* subheading displayed only in screen sizes bigger than 367px*/
+@media only screen and (min-width: 376px) {
+.hero-text {
+  display: block;
+  text-align: right;
+  background-color: #fff;
+  color: #2b6777;
+  font-size: large;
+}
 
 
 }
 
+
+
+
 }
 
-.navbar h1 {
-  font-size: 16px;
+
+
+
+
  
-}
-ul li {
 
-  color:#fff;
-
-}
   

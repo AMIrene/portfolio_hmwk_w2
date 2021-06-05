@@ -12,57 +12,110 @@
 </head>
 
 <body>
-
     <!-- This is the mobile responsive header. -->
-    <header>
-       
+    <header id="header_container">
+        <div class="header_box">    
+            <div class="name-chip">
+                <h1>Irene Adam Manik</h1>
+            </div>
+        </div>
+
+        <div class="header_box expand">
+            spacer
+        </div>
+
         <!-- This is the mobile responsive nav bar. -->
-        <nav class="navbar">
-            <h1>Irene Adam Manik</h1>
-            <ul class="nav-links">
-                <li><a href="#aboutme"></a>About me</li>
-                <li><a href="#work"></a>Work</li>
-                <li><a href="#contact"></a>Contact me</li>
-                <li><a href="#resume"></a>Resume</li>
-            </ul>
-         
-        </nav>
+        <div class="header_box">
+            <nav class="navbar">
+
+                <ul class="nav-links">
+                    <li><a href="#aboutme"></a>About me</li>
+                    <li><a href="#work"></a>Work</li>
+                    <li><a href="#contact"></a>Contact me</li>
+                    <li><a href="#resume"></a>Resume</li>
+                </ul>
+
+            </nav>
+        </div>
     </header>
 
     <!-- Hero image -->
-    <div class="hero"></div>
-    <h2 class="hero-text">Design solutions for all</h2>
+    <div class="hero">
+        <!-- background image to be placed here -->
+        <div class="hero-header-box">
+            <h2 class="hero-text">Design solutions for all</h2>
+        </div>
+    </div>
 
 
     <!-- Body -->
     <main>
 
         <!-- About me  -->
-        <section class="container">
-            <h2 id="aboutme">About me</h2>
-            <section class="card">
+        <section id="aboutme">
+            <div class="aboutme_header_container">
+                <h2>About me</h2>
+                <img src="assets/images/image_avatar.png" alt="girl with laptop" width="200px">
+            </div>
+
+            <div class="aboutme_content">
                 <p>Hey there, my name is Irene. I am new to coding and learning HTML, CSS and JavaScript.</p>
-            </section>
+            </div>
 
-            <!-- Work -->
-            <section class="container">
+        </section>
+        <!-- Work -->
+
+        <section id="work">
+            <div class="work_header_container">
+                <h2>Work</h2>
+            </div>
+
+            <div class="work_content_container_aqua">
+
+                <div class="work_card_purple">
+                    sdsdsdsds
+                </div>
+
+                <div class="work_content_row_red">
+                    <div class="work_card_smaller_purple">
+                        hdhhdhd
+                    </div>
+                    <div class="work_card_smaller_purple">
+                        dsdsds
+                    </div>
+                </div>
+                <div class="work_content_row_red">
+                    <div class="work_card_smaller_purple">
+                        sdsdsds
+                    </div>
+                    <div class="work_card_smaller_purple">
+                        sdsdsds
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- <section class="container">
                 <h2 id="work">Work</h2>
-            </section>
+            </section> -->
 
-            <footer>
-                <!-- Contact me -->
-                <h2 id="contact">Contact me</h2>
+        <!-- <footer> -->
+        <!-- Contact me -->
+        <!-- <h2 id="contact">Contact me</h2> -->
 
-                <!-- Links to contact me menu items -->
+        <!-- Links to contact me menu items -->
 
-                <section>
+        <!-- <section>
                     <h3>555-555-5555</h3>
                     <h3>palasow123@revutap.com</h3>
                     <h3 id="resume">Github</h3>
                     <h3>Twitter</h3>
                     <h3>Spotify</h3>
                 </section>
-            </footer>
+            </footer> -->
+
+    </main>
 </body>
 
 

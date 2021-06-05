@@ -28,7 +28,10 @@
     align-items: flex-end;
     padding-bottom: 15px;
     margin-bottom: 50px;
+
+  }
   
+  .header_box {
                     
   }
 
@@ -75,7 +78,6 @@
 
 
     
-
 /* hero */
 
 .hero {
@@ -86,13 +88,14 @@
   background-image: url("../images/1.png");
   background-size: cover;
   background-position: center;
-  
-  
-  
+
+}
+    
 }
  
-.hero-header-box {
-  /* position: relative;
+
+  /*.hero-header-box { 
+  position: relative;
   display: flex;
   flex-direction: row;
   width: 250px;
@@ -136,11 +139,47 @@
   #aboutme {
     display: flex;
     flex-direction: row;
-
+    color: #2b6777;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+    
   }
 
-#aboutme p {
+  .aboutme_header_container {
+    border-right:#2b6777 solid 4px;
+    line-height: 1.6px;
+  }
+
+  #aboutme h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+ 
+}
+
+  .aboutme_content {
   font-size: large;
+  color: #2b6777;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.avatar {
+display: flex;
+background-size:cover;
+background-position: top center;
+width: 150px;
+height: 150px;
+border-radius: 70px;
+margin-left: -15px;
+margin-right: 10px;;
+
+}
+
+.avatar:hover {
+box-shadow: 0 0 50px #2b6777;
+  
 }
 
 
@@ -165,7 +204,7 @@
 
 #work_card_purple:hover,
 .work_card_smaller_purple:hover {
-box-shadow: 0 0 50px #ebde27;
+box-shadow: 0 0 50px #2b6777;
 
 }
 

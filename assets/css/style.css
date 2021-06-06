@@ -9,13 +9,12 @@
 }
 
 body {
-  font-family: Arial;
   margin: 0;
   background-color: #dadfe1;
 }
 
 main {
-  width: 1024px;
+    width: 1024px;
 }
 
 /* Tablet / Medium breakpoint*/
@@ -43,6 +42,7 @@ main {
   display: flex;
   flex-direction: row;
 }
+
 
 .expand {
   flex-grow: 2;
@@ -86,6 +86,10 @@ main {
   color: #2b6777;
   text-decoration: none;
 }
+
+/* Responsive header */
+
+
 
 /* hero */
 

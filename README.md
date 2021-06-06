@@ -26,7 +26,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 # Deployed page https://amirene.github.io/portfolio_hmwk_w2/
  ![ScreenShot of landing page](/assets/images/browser_screen_shot.png)
 
+# Wireframe Desktop
  ![Wireframe_desktop](/assets/images/wireframe1.png)
+
+ # Wireframe Mobile
  ![Wireframe_mobile](/assets/images/wireframe_mobile.jpg)
 
 ## Credits and licenses

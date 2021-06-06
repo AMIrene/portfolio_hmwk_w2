@@ -257,12 +257,3 @@ footer {
 
 }
 
-#footer_content{
-  display: flex;
-  flex-direction: row;
-  color:#fff;
-  justify-content: center;
-  align-items: flex-end;
-  padding-top: 30px;
-
-}

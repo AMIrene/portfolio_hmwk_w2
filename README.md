@@ -27,7 +27,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
  ![ScreenShot of landing page](/assets/images/browser_screen_shot.png)
 
  ![Wireframe_desktop](/assets/images/wireframe1.png)
- ![Wireframe_mobile](/assets/images/wireframe_mobile.png)
+ ![Wireframe_mobile](/assets/images/wireframe_mobile.jpg)
 
 ## Credits and licenses
 

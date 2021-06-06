@@ -194,17 +194,42 @@ main {
   background-image: url(../images/html.png);
 }
 
-.work-card-title-box {
+/* surf report project title */
+.surf-card-title-box {
   position: relative;
-  top: 80%;
-  left: 30px;
-  border: 2px solid black;
-  width: 206px;
+  top: 70%;
+  border: 2px solid #2b6777;
+  color: #fff;
+  background-color: #2b6777;
+  width: 140px;
   height: 40px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 14px;
 }
+
+/* surf report project subtitle */
+.surf-card-subtitle-box {
+  position: relative;
+  top: 70%;
+  border: 2px solid #2b6777;
+  color: #fff;
+  background-color: #2b6777;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: small;
+  padding-left: 14px;
+}
+
+
+
+
+
+/* work card styling */
 
 .work_border {
   border: 2px solid #2b6777;

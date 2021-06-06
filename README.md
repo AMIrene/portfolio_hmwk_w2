@@ -23,10 +23,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ## Table of Contents:
-- Deployed page
-- Screen shot of landing page
+# Deployed page https://amirene.github.io/portfolio_hmwk_w2/
+ ![ScreenShot of landing page](/assets/images/browser_screen_shot.png)
+
 
 ## Credits and licenses
 
 Work profile images by Irene Adam Manik, made using Canva
-Avatar icon, Canva
+Avatar icon, Canva (https://www.canva.com/)

@@ -160,6 +160,7 @@ main {
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0px 14px 7px 14px;
+ 
 }
 
 .work_content_row_red {
@@ -176,9 +177,9 @@ main {
   margin: 7px 7px 7px 7px;
 }
 
-.surf-run:hover {
-  box-shadow: 0 0 50px black;
-}
+/* .surf-run:hover {
+  box-shadow: 0 0 50px #2b6777;
+} */
 
 .led-wall {
   background-image: url(../images/light.png);
@@ -208,23 +209,19 @@ main {
   justify-content: center;
 }
 
-
-.work_content_container_aqua {
-
-}
-/* 
-.work_card_purple {
-  display: flex;
-  bottom: 10px;
-  left: 50px;
-  border: #2b6777 solid 3px;
+.work_border {
+  border: 2px solid #2b6777;
   border-radius: 5px;
-}
+  }
 
-#work_card_purple:hover,
-.work_card_smaller_purple:hover {
+.surf-run:hover,
+.led-wall:hover,
+.calculator:hover,
+.pastel-puzzles:hover,
+.run-buddy:hover {
+
   box-shadow: 0 0 50px #2b6777;
-} */
+}
 
 /* footer */
 
@@ -233,88 +230,15 @@ main {
   flex-direction: row;
 }
 
-/* Navigation menu */
-/* 
-.navbar {
-  display: flex;
+#contact > .section_header_container {
+  width: 154px;
+}
+
+.footer_content {
+  flex-grow: 1;
   justify-content: space-between;
-  flex-direction: column;
-  color: #2b6777;
-
-
-}
-
-.navbar h1 {
-display: flex;
-justify-content: space-between;
-align-items: flex-start;
-
-
-}
-
-.nav-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-
-} */
-
-/* hero image not displayed on screen sizes less than 367px*/
-/* .hero {
-  display: none;
-  flex-direction: column;
-  background-image: url(../images/1.png);
-  min-height: 15em;
-  height: 50%;
-  align-self: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  align-items: center;
-  justify-content: center;
-} */
-
-/* hero image displayed only in screen sizes bigger than 367px*/
-/* 
-@media only screen and (min-width: 376px) {
-  .hero {
-  display: block;
-  flex-direction: row;
-  background-image: url(../images/1.png);
-  min-height: 15em;
-  height: 50%;
-  align-self: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  align-items: center;
-  justify-content: center;
-} */
-
-/* subheading not displayed on screen sizes less than 367px*/
-/* .hero-text {
-  display: none;
-  text-align: right;
-  background-color: #fff;
-  color: #2b6777;
   font-size: large;
-} */
-/* subheading displayed only in screen sizes bigger than 367px*/
-/* @media only screen and (min-width: 376px) {
-.hero-text {
-  display: block;
-  text-align: right;
-  background-color: #fff;
   color: #2b6777;
-  font-size: large;
-}
-
+  padding: 0px 14px 0px 14px;
 
 }
-
-
-
-
-}
-
- */

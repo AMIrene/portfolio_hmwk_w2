@@ -220,13 +220,13 @@ main {
   box-shadow: 0 0 50px #2b6777;
 }
 
-/* footer */
+/* contact section */
 
 #contact > .section_header_container {
   width: 154px;
 }
 
-.footer_links {
+.contact_links {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -240,11 +240,29 @@ main {
   font-weight: 600;
 }
 
-.footer_links a {
+.contact_links a {
   color: #2b6777;
   text-decoration: none;
   padding: 0px 14px 0px 14px;
  
- 
- 
+  
+}
+
+/* footer */
+
+footer {
+
+  background-color: #2b6777;
+  height: 60px;
+
+}
+
+#footer_content{
+  display: flex;
+  flex-direction: row;
+  color:#fff;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 30px;
+
 }
